@@ -1,16 +1,30 @@
-# <Your Project Title>
-
 ## a. Problem statement
-<2-4 lines: what you predict, why it matters, binary/multi-class.>
+Develop a machine learning classification model to predict whether a bank customer will subscribe to a term deposit based on their demographic information, financial status, and previous marketing campaign interactions.
 
 ## b. Dataset description
-- Source: <Kaggle/UCI link>
-- Instances: <n> | Features: <n> | Target: `<column>` | Classes: <list>
-- Preprocessing: <missing values, encoding, scaling>
-- Split: 80/20 stratified, random_state=42
+The dataset contains customer and campaign-related attributes such as:
+Age
+Job type
+Marital status
+Education level
+Credit default status
+Account balance
+Housing loan status
+Personal loan status
+Contact communication type
+Last contact day and month
+Call duration
+Number of campaign contacts
+Days since previous contact (pdays)
+Number of previous contacts (previous)
+Outcome of previous marketing campaign (poutcome)
+Target Variable
+deposit (Yes/No)
+Yes → Customer subscribed to the term deposit.
+No → Customer did not subscribe to the term deposit.
 
 ## c. GitHub repository
-
+https://github.com/rmarathe2002-cmd/ml_assignment2_2026aj05224.git
 
 ## d. Models used
 
